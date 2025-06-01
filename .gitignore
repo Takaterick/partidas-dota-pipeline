@@ -1,0 +1,21 @@
+# Entorno virtual
+env/
+__pycache__/
+*.pyc
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de configuracion local
+.env
+*.sqlite3
+*.log
+
+# Archivos de bases de datos locales
+*.db
+
+# Otros
+*.egg-info/
+dist/
+build/
