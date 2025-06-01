@@ -15,6 +15,9 @@ Thumbs.db
 # Archivos de bases de datos locales
 *.db
 
+# Archivo de prueba data
+data/
+
 # Otros
 *.egg-info/
 dist/
