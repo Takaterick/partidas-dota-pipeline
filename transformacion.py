@@ -1,7 +1,5 @@
 import pandas as pd
-# esta es la api de opendota API_URI = "https://api.opendota.com/api/matches/8317181521"
 def transformar_datos(raw_json):
-    # Claves a eliminar para poder insertar bien en la tabla
     claves_considerar = [
         'match_id', 'start_time', 'duration', 'radiant_win', 'radiant_score',
         'dire_score', 'radiant_name', 'dire_name', 'radiant_team_id', 'dire_team_id', 'leagueid',

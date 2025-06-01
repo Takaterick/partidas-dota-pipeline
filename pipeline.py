@@ -5,19 +5,19 @@ from carga import cargar_datos_csv, cargar_datos_db
 def pipeline():
     print("Iniciando el pipeline de ETL...")
 
-    print("Extrayendo datos...")
+    print("1. Extrayendo datos...")
     raw_data = extraer_datos()
 
-    print("Transformando datos...")
+    print("2. Transformando datos...")
     df = transformar_datos(raw_data)
 
-    print("Cargando datos a CSV...")
+    print("3. Cargando datos a CSV...")
     cargar_datos_csv(df)
 
-    print("Cargando datos a la base de datos...")
+    print("4. Cargando datos a la base de datos...")
     cargar_datos_db(df)
 
-    print("Pipeline de ETL completado con éxito.")
+    print("Pipeline de ETL completado con exito.")
 
 if __name__ == "__main__":
     try:
